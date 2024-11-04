@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 15%;
+    height: 90%;
+    background: rgb(68, 68, 70);
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Space out the elements */
+    align-items: center; /* Align items vertically centered */
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    background: rgb(20, 20, 20);
+    color: azure;
+}
+
+.header h1 {
+    margin: 0;
+    order: 2; /* Display in the middle */
+    flex-grow: 1; /* Allow the h1 to take available space */
+    text-align: center; /* Center the text */
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    order: 1; /* Display on the left */
+}
+
+.logout-container {
+    order: 3; /* Display on the right */
+}
+
+.header p {
+    margin: 0;
+}
+
+#logoutButton {
+    background-color: #dddbdb;
+    color: rgb(10, 10, 10);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Optional: Hover effect for the button */
+#logoutButton:hover {
+    background-color: #756464;
+}
+
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 250%;
+    height: 10%;
+    background: rgb(20, 20, 20);
+}
+
+.main{
+    display: flex;
+    position: fixed;
+    width: 83%;
+    left: 305px;
+    height: 75%;
+    background: rgb(144, 144, 148);
+    padding: 30px;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Default link style */
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+/* Highlighted link style */
+.nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+.firstbox, .secondbox, .thirdbox {
+    width: 30%;
+    height: 50%;
+    background-color: #4c4d4e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

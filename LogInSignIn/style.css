@@ -1,0 +1,19 @@
+.cardBack{
+    background: rgb(220, 220, 220);
+    background: rgb(68, 68, 70);
+}
+body {
+    background-image: url('books_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 13, 13);
+}
+a{
+    color: rgb(14, 13, 13);
+}
+.form-text{
+    color: rgb(14, 13, 13);
+}
